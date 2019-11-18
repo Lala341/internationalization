@@ -4,5 +4,7 @@
 	"Salary": "Salary",
 	"City": "City",
 	"PulibicationDate": "Pulibication date",
-	"Views": "Views"
+	"Views": "Views",
+    "One": " milion",
+    "Other": " milions"
 }

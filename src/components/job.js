@@ -1,5 +1,5 @@
 import React from 'react';
-import {FormattedDate,FormattedNumber, FormattedPlural} from 'react-intl';
+import {FormattedDate,FormattedNumber, FormattedPlural, FormattedMessage} from 'react-intl';
 
 
 export default class Job extends React.Component {
@@ -13,8 +13,8 @@ export default class Job extends React.Component {
       			<td>{this.props.offer.salary} 
 				  <FormattedPlural
     value={this.props.offer.salary}
-	one=" milion"
-	other=" milions"
+	one={<FormattedMessage id="One"/>}
+	other={<FormattedMessage id="Other"/>}
   />
 				  
 				  
